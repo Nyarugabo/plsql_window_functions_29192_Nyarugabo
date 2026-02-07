@@ -30,3 +30,18 @@ Goal 3: I want to see growth compared to last month.
 . Why measurable? Compare this month's sales to last month's 
 
 . Window function: LAG() or LEAD()
+
+Goal 4: I want to categorize customers into 4 groups by how much they buy.
+
+. Why measurable? Helps marketing by know who buys the most
+
+. Window function: NTILE()
+
+Goal 5: I want know 3-month moving average sales to smooth trends.
+
+. Why measurable? Shows trends over months without spikes 
+
+. Window function: AVG() OVER()
+
+
+Q3. 
