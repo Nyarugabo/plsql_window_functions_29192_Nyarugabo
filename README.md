@@ -134,6 +134,8 @@ FROM clients
 LEFT JOIN orders ON client_id = client_id
 WHERE order_id IS NULL;
 
+https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/de057e4281eb09b6c5c5caca0a851bc0e396651f/images/LEFT%20JOIN.png
+
 Business Interpretation:
 
 Identifies clients who registered but never purchased. Useful for targeting promotions or loyalty campaigns.
