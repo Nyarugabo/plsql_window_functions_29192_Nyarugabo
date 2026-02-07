@@ -10,8 +10,12 @@ FreshMaket is digital platform that connecrs farmers directly and buyers, enabli
 It's simplifies the market place, increase farmer's profits and gives customers to fresh,localy food.
 
 Q2. Success Criteria 
+
 Five measurable goals.
+
 Goal 1: i want to know the % selling products in each category.
+
 . Why measurable? Becuase i can calculate total seles per product and category.
+
 . window function: RANK() (to rank products within each category)
 
