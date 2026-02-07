@@ -19,3 +19,14 @@ Goal 1: i want to know the % selling products in each category.
 
 . window function: RANK() (to rank products within each category)
 
+Goal 2: I want to see cumulative sales month by month.
+
+. Why measurable? I can sum the total sales for any month 
+
+. Window funtion: SUM() OVER()
+
+Goal 3: I want to see growth compared to last month.
+
+. Why measurable? Compare this month's sales to last month's 
+
+. Window function: LAG() or LEAD()
