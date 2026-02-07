@@ -118,7 +118,7 @@ FROM orders
 INNER JOIN clients ON client_id = client_id
 INNER JOIN products ON product_id = product_id;
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/c4e165fa606f128d2f4997b6c67183d9da7c4122/images/INNER%20JOIN.png
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/c4e165fa606f128d2f4997b6c67183d9da7c4122/images/INNER%20JOIN.png).
 
 Business Interpretation :
 
