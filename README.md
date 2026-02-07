@@ -72,6 +72,10 @@ Table2 clients(customer)
 
 Table3 products 
 
+.prouct_id(PK)
+
+. farmer_id(FK)
+
 . category
 
 . product_name
@@ -84,6 +88,22 @@ Table3 products
 
 .date
 
+Table4 orders
+
+.order_id
+
+.client_id
+
+.product_id(FK)
+
+.quantity
+
+.total_price
+
+.order_date
 
 
+Q4.  SQL JOINs Implementation
+
+1. INNER JOIN -- Rerieve transactions wiith valid custmoers and products
 
