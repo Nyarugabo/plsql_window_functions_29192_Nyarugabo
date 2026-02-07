@@ -118,6 +118,8 @@ FROM orders
 INNER JOIN clients ON client_id = client_id
 INNER JOIN products ON product_id = product_id;
 
+OUT PUT
+
 ![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/c4e165fa606f128d2f4997b6c67183d9da7c4122/images/INNER%20JOIN.png).
 
 Business Interpretation :
@@ -134,7 +136,9 @@ FROM clients
 LEFT JOIN orders ON client_id = client_id
 WHERE order_id IS NULL;
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/de057e4281eb09b6c5c5caca0a851bc0e396651f/images/LEFT%20JOIN.png
+OUT PUT
+
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/de057e4281eb09b6c5c5caca0a851bc0e396651f/images/LEFT%20JOIN.png).
 
 Business Interpretation:
 
@@ -150,7 +154,9 @@ FROM orders
 RIGHT JOIN products ON product_id = product_id
 WHERE order_id IS NULL;
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/10f5de0c623f579385b50c169071a12126c3beef/images/RIGHT%20JOIN.png
+OUT PUT 
+
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/10f5de0c623f579385b50c169071a12126c3beef/images/RIGHT%20JOIN.png).
 
 Business Interpretation:
 
@@ -179,7 +185,9 @@ order_id,
 LEFT JOIN products ON p.product_id = o.product_id
 LEFT JOIN orders ON o.client_id = c.client_id
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/2ef4021d92a902947e91a36825ccb45b6448f4d2/images/FULL%20JOIN.png
+out put
+
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/2ef4021d92a902947e91a36825ccb45b6448f4d2/images/FULL%20JOIN.png).
 
 Business Interpretation:
 
@@ -196,7 +204,9 @@ c1.location
 FROM client
 INNER JOIN clients c1.location = c2.location AND c1.client_id < c2.client_id;
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/be6d830b04c5b8cc966238f60081b3ee979dbc0a/images/SELF%20JOIN.png
+OUT PUT
+
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/be6d830b04c5b8cc966238f60081b3ee979dbc0a/images/SELF%20JOIN.png).
 
 Business Interpretation:
 
