@@ -150,6 +150,8 @@ FROM orders
 RIGHT JOIN products ON product_id = product_id
 WHERE order_id IS NULL;
 
+https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/10f5de0c623f579385b50c169071a12126c3beef/images/RIGHT%20JOIN.png
+
 Business Interpretation:
 
 Finds products that were never sold. Useful for inventory management
