@@ -105,5 +105,93 @@ Table4 orders
 
 Q4.  SQL JOINs Implementation
 
-1. INNER JOIN -- Rerieve transactions wiith valid custmoers and products
+1. INNER JOIN: Rerieve transactions wiith valid custmoers and products
 
+SELECT
+order_id, 
+full_name AS client_name,
+product_name,
+quantity,
+total_price,
+order_date
+FROM orders
+INNER JOIN clients ON client_id = client_id
+INNER JOIN products ON product_id = product_id;
+
+Business Interpretation :
+
+Shows real orders where both client and product exist. Managment can track active sales and revenue.
+
+2. LEFT JOIN: Identify with no orders
+
+SELECT
+client_id,
+full_name,
+order_id
+FROM clients 
+LEFT JOIN orders ON client_id = client_id
+WHERE order_id IS NULL;
+
+Business Interpretation:
+
+Identifies clients who registered but never purchased. Useful for targeting promotions or loyalty campaigns.
+
+3. RIGHT JOIN: Detect products with no sales activity
+
+SELECT
+product_id,
+product_name,
+order_id,
+FROM orders
+RIGHT JOIN products ON product_id = product_id
+WHERE order_id IS NULL;
+
+Business Interpretation:
+
+Finds products that were never sold. Useful for inventory management
+
+4. FULL OUTER JOIN: Compare customers and products including unmatched rocords
+
+SELECT 
+client_id,
+c.full_name As client_name,
+product_id,
+product_name,
+order_id,
+FROM clients
+LEFT JOIN orders ON c.client_id = o.client_id
+LEFT JOIN products ON O.product_id = p.product_id
+
+UNION
+
+SELECT
+client-id,
+c.full_name AS clients_Name,
+product_id,
+product_name,
+order_id,
+LEFT JOIN products ON p.product_id = o.product_id
+LEFT JOIN orders ON o.client_id = c.client_id
+
+iamge
+
+Business Interpretation:
+
+Gives a full overview of clients products, highlighting both unmatched clients(no orders) and unmatched products(never sold).
+
+5. SELF JOIN: Compare customers within the same location
+
+SELECT
+c1.client_id AS client1_id,
+c1.full_name AS client1_name,
+c2.client_id AS client2_id,
+c2.full_name AS client2_id,
+c1.location
+FROM client
+INNER JOIN clients c1.location = c2.location AND c1.client_id < c2.client_id;
+
+image
+
+Business Interpretation:
+
+Finds pairs of clients located in the same city. Useful for targeting region specific marketing or logistics planning.
