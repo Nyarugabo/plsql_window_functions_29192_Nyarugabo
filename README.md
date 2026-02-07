@@ -196,7 +196,7 @@ c1.location
 FROM client
 INNER JOIN clients c1.location = c2.location AND c1.client_id < c2.client_id;
 
-image
+https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/be6d830b04c5b8cc966238f60081b3ee979dbc0a/images/SELF%20JOIN.png
 
 Business Interpretation:
 
