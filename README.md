@@ -44,4 +44,46 @@ Goal 5: I want know 3-month moving average sales to smooth trends.
 . Window function: AVG() OVER()
 
 
-Q3. 
+Q3. Database Schema Design
+
+Table1 farmers
+
+. famer_id
+
+. full_name
+
+. phone
+
+. location
+
+.date 
+
+Table2 clients(customer)
+
+. client_id
+
+. full_name
+
+. phone
+
+. location
+
+. date 
+
+Table3 products 
+
+. category
+
+. product_name
+
+. price 
+
+.quantity
+
+.unit
+
+.date
+
+
+
+
