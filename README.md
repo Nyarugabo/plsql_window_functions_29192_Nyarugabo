@@ -173,7 +173,7 @@ order_id,
 LEFT JOIN products ON p.product_id = o.product_id
 LEFT JOIN orders ON o.client_id = c.client_id
 
-iamge
+https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/2ef4021d92a902947e91a36825ccb45b6448f4d2/images/FULL%20JOIN.png
 
 Business Interpretation:
 
