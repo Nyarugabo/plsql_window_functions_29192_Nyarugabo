@@ -19,6 +19,8 @@ Goal 1: i want to know the % selling products in each category.
 
 . window function: RANK() (to rank products within each category)
 
+https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/9490c3bfdb1073798ca8646ccf53c0b6ba6372ff/images/images/RANK.png
+
 Goal 2: I want to see cumulative sales month by month.
 
 . Why measurable? I can sum the total sales for any month 
