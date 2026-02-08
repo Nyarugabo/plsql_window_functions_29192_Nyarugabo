@@ -46,62 +46,7 @@ Goal 5: I want know 3-month moving average sales to smooth trends.
 
 Q3. Database Schema Design
 
-Table1 farmers
-
-. famer_id
-
-. full_name
-
-. phone
-
-. location
-
-.date 
-
-Table2 clients(customer)
-
-. client_id
-
-. full_name
-
-. phone
-
-. location
-
-. date 
-
-Table3 products 
-
-.prouct_id(PK)
-
-. farmer_id(FK)
-
-. category
-
-. product_name
-
-. price 
-
-.quantity
-
-.unit
-
-.date
-
-Table4 orders
-
-.order_id
-
-.client_id
-
-.product_id(FK)
-
-.quantity
-
-.total_price
-
-.order_date
-
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/820d411e26b3ffb3cd4064378936f1fd1a1593f7/images/images/DB%20schema.png).
 
 Q4.  SQL JOINs Implementation
 
