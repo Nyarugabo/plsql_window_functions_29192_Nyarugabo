@@ -43,6 +43,8 @@ Goal 4: I want to categorize customers into 4 groups by how much they buy.
 
 . Window function: NTILE()
 
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/0309ee8dc2c5a8407480bbe57dfb9e3a5f62b003/images/images/NTILE.png)
+
 Goal 5: I want know 3-month moving average sales to smooth trends.
 
 . Why measurable? Shows trends over months without spikes 
