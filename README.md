@@ -27,6 +27,8 @@ Goal 2: I want to see cumulative sales month by month.
 
 . Window funtion: SUM() OVER()
 
+https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/ea8be273fa686d59e202be0317251478638c7748/images/images/SUM.png
+
 Goal 3: I want to see growth compared to last month.
 
 . Why measurable? Compare this month's sales to last month's 
