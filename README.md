@@ -19,7 +19,7 @@ Goal 1: i want to know the % selling products in each category.
 
 . window function: RANK() (to rank products within each category)
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/9490c3bfdb1073798ca8646ccf53c0b6ba6372ff/images/images/RANK.png
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/9490c3bfdb1073798ca8646ccf53c0b6ba6372ff/images/images/RANK.png).
 
 Goal 2: I want to see cumulative sales month by month.
 
@@ -27,13 +27,15 @@ Goal 2: I want to see cumulative sales month by month.
 
 . Window funtion: SUM() OVER()
 
-https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/ea8be273fa686d59e202be0317251478638c7748/images/images/SUM.png
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/ea8be273fa686d59e202be0317251478638c7748/images/images/SUM.png).
 
 Goal 3: I want to see growth compared to last month.
 
 . Why measurable? Compare this month's sales to last month's 
 
 . Window function: LAG() or LEAD()
+
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/478c2518e264e535b91f075d03156562b848112b/images/images/LAG.png).
 
 Goal 4: I want to categorize customers into 4 groups by how much they buy.
 
