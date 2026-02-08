@@ -51,6 +51,8 @@ Goal 5: I want know 3-month moving average sales to smooth trends.
 
 . Window function: AVG() OVER()
 
+![image alt](https://github.com/Nyarugabo/plsql_window_functions_29192_Nyarugabo/blob/0309ee8dc2c5a8407480bbe57dfb9e3a5f62b003/images/images/AVG.png)
+
 
 Q3. Database Schema Design
 
